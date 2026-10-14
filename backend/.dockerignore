@@ -1,0 +1,30 @@
+# Build output & caches
+build/
+.gradle/
+target/
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# VCS / CI
+.git
+.gitignore
+.gitattributes
+
+# Local config & secrets
+.env
+.env.*
+*.log
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+compose.yml
+docker-compose.yml
+
+# Docs
+*.md
